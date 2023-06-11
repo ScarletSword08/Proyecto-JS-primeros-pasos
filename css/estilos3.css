@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.header {
+    height: 15vh;
+}
+
+
+.container-fluid {
+    z-index: 3;
+    background-color: rgb(53, 58, 64);
+}
+
+
+.gris {
+    background-color: rgb(53, 58, 64);
+}
+
+
+.navbar-dark .navbar-nav .blanco {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .verde {
+    color: green;
+}
+
+
+.card {
+    border-color: transparent;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.titulo {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pequeño {
+    font-size: 0.8rem;
+}
+
+
+.formulario {
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+
+.dinero {
+    background-color: lightblue;
+    color: rgba(24, 42, 145, 0.733);
+}
+
+.borrar {
+    height: 2rem;
+    color: white;
+    text-align: center;
+    background-color: rgba(150, 201, 62);
+    border-radius: 3px;
+    border: 1px solid rgba(150, 201, 62);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.resumen {
+    height: 2rem;
+    color: white;
+    text-align: center;
+    background-color: rgba(150, 201, 62);
+    border-radius: 3px;
+    border: 1px solid rgba(150, 201, 62);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.end {
+    height: 100%;
+    background-color: rgb(29, 73, 98);
+}
+
+.Links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+@media screen and (min-width: 800px){
+
+
+    .Links a {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

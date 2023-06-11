@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.header {
+    height: 100vh;
+}
+
+.gris {
+    background-color: rgb(53, 58, 64);
+}
+
+.navbar-dark .navbar-nav .verde {
+    color: green;
+}
+
+
+.conferencia {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(to bottom, #1c1d1da1, #1c1d1d9d, #1c1d1d9f), url(../assets/img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 50px;
+
+}
+
+.párrafo {
+    width: 50%;
+    color: white;
+    text-align: right;
+}
+
+.párrafo h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.textoConf {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.headline {
+    font-size: 0.8rem;
+}
+ .card {
+    border: 1px solid rgb(87, 84, 84);
+    margin-left: 15px;
+    border-radius: 5px;
+ }
+
+.etiquetas h4 {
+    margin-left: 1rem;
+}
+
+.java {
+    width: auto;
+    font-size: 80%;
+    text-align: center;
+    background-color: rgba(253, 195, 0);
+    padding: 1px;
+    border: 1px solid rgba(253, 195, 0);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.react {
+    width: auto;
+    color: white;
+    font-size: 80%;
+    background-color: rgb(28, 158, 184);
+    text-align: center;
+    border: 1px solid rgb(28, 158, 184);
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 0.5rem;
+}
+
+.negocios {
+    width: auto;
+    color: white;
+    font-size: 80%;
+    background-color: rgba(114, 112, 117);
+    text-align: center;
+    border: 1px solid rgba(114, 112, 117);
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 0.5rem;
+}
+
+.starups {
+    width: auto;
+    color: white;
+    font-size: 80%;
+    background-color: rgba(221, 50, 69);
+    text-align: center;
+    border: 1px solid rgba(221, 50, 69);
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 0.5rem;
+}
+
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+}
+
+
+
+.right {
+    background-color: rgb(53, 58, 64);
+    color: white;
+    height: 40vh;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    line-height: 1.3rem;
+}
+
+.right a {
+    color: white;
+
+}
+
+.formulario {
+    width: 50%;
+    /*height: 42vh;*/
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.pequeño {
+    font-size: 40%;
+}
+
+.form-control .NA {
+    width: 48%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(83, 82, 82);
+    border-radius: 3px;
+    padding-left: 1rem;
+}
+
+.area {
+    width: 97%;
+    height: 30%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.primerLinea {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.segundaLinea {
+    font-size: 0.6rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    padding-left: 0.8rem;
+}
+
+.enviar {
+    width: 98%;
+    height: 2rem;
+    color: white;
+    text-align: center;
+    background-color: rgba(150, 201, 62);
+    border-radius: 3px;
+    border: 1px solid rgba(150, 201, 62);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.final {
+    height: 100%;
+    background-color: rgb(29, 73, 98);
+    display: flex;
+    flex-direction: row;
+}
+
+.Links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .mainMenu {
+        flex-direction: column;
+        height: initial;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 1rem;
+    
+    }
+
+    .Logo {
+        width: 60%;
+    }
+
+    .Menú {
+        width: 100%;
+    }
+    
+    .List {
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .conferencia{
+        height: 80%;
+        background: linear-gradient(to bottom, #1c1d1d56, #1c1d1d69, #1c1d1d56), url(../assets/img/obelisco.jpg);
+        padding-right: 1rem;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .párrafo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .opciones {
+        justify-content: center;
+    }
+
+    .orador {
+        height: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formulario {
+        height: initial;
+    }
+
+    .form-control .NA {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+
+    .area {
+        width: 100%;
+    }
+
+    .segundaLinea {
+        text-align: center;
+    }
+
+   .end {
+    height: initial;
+   }
+
+
+    .Links a {
+        font-size: 0.8rem;
+    }
+
+}
+
+
